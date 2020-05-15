@@ -5,14 +5,14 @@ using UnityEngine;
 public class RewindPickup : MonoBehaviour
 {
     [SerializeField]
-    public float rewindAmount;
+    public float rewindAmount = 50;
     [SerializeField]
     float respawnTime = 5f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rewindAmount = 50f;
     }
 
     // Update is called once per frame
